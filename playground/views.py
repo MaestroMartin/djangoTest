@@ -6,7 +6,7 @@ def say_hello(request):
    x = 2 
 
    #return render(request,'hello.html', {'name': 'mosh'})
-   return HttpResponse('Hello World')
+   return HttpResponse('Hello World, Test2')
 
 #pull data from db
 # transform
